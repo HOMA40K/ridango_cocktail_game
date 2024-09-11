@@ -29,7 +29,7 @@
 * Resources:
     * Instructions on how to use the API are written here: https://www.thecocktaildb.com/api.php
 
-* Main tasks:curl -c cookies.txt http://localhost:8080/api/cocktail/random
+* Main tasks:
     * Build a Java console application using Java 1.8 or newer (we recommend using Java 17 or 21) which allows to play a game of "Guess the cocktail"
     * Build a game with the rules from above
     * Remember the current highest score achieved
