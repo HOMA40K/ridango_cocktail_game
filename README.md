@@ -65,3 +65,10 @@ curl -b cookies.txt "http://localhost:8080/api/cocktail/guess?guess=your guess"
 ```
 curl -b cookies.txt -X POST http://localhost:8080/api/cocktail/saveScore -d "playerName=your name"
 ```
+
+Why exactly this way?
+I decided to make game this way, so it would be easier to add angular in the future.
+With my way, lots of players can play at the same time, 
+With scanner the only person that can play, is the one who has access to the server. 
+My project allows you to add angular almost instantly, with changing few lines of code, to be more precise, at those places where code returns data.
+Currently data returns as a simple string for readability, with small rewrite, around 2 lines, it would be able to return a Json with all the data that angular requires.
